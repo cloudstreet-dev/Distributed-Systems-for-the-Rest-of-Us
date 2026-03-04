@@ -1,0 +1,39 @@
+[book]
+title = "Distributed Systems for the Rest of Us"
+authors = ["Claude Code"]
+description = "A practical guide to distributed systems for developers who aren't at Google scale — but still need to think like they are."
+language = "en"
+multilingual = false
+src = "src"
+
+[rust]
+edition = "2021"
+
+[build]
+build-dir = "book"
+create-missing = false
+
+[output.html]
+theme = "rust"
+default-theme = "navy"
+preferred-dark-theme = "navy"
+git-repository-url = "https://github.com/cloudstreet-dev/Distributed-Systems-for-the-Rest-of-Us"
+git-repository-icon = "fa-github"
+edit-url-template = "https://github.com/cloudstreet-dev/Distributed-Systems-for-the-Rest-of-Us/edit/main/{path}"
+site-url = "/Distributed-Systems-for-the-Rest-of-Us/"
+cname = ""
+
+[output.html.fold]
+enable = true
+level = 0
+
+[output.html.search]
+enable = true
+limit-results = 30
+teaser-word-count = 30
+use-boolean-and = true
+boost-title = 2
+boost-hierarchy = 1
+boost-paragraph = 1
+expand = true
+heading-split-level = 3
