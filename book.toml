@@ -13,7 +13,6 @@ create-missing = false
 default-theme = "navy"
 preferred-dark-theme = "navy"
 git-repository-url = "https://github.com/cloudstreet-dev/Distributed-Systems-for-the-Rest-of-Us"
-git-repository-icon = "fa-github"
 edit-url-template = "https://github.com/cloudstreet-dev/Distributed-Systems-for-the-Rest-of-Us/edit/main/{path}"
 site-url = "/Distributed-Systems-for-the-Rest-of-Us/"
 
